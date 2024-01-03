@@ -1,1 +1,1 @@
-# RockPaperScissors
+My own game of rock paper scissors.
