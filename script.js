@@ -76,7 +76,7 @@ function playRound(playerSelection, computerSelection) {
         } else if (computerSelection == "paper") {
             tie("paper");
         } else {
-            lost("rock", "scissor");
+            lost("paper", "scissor");
         }
     } else if (playerSelection == "scissor") {
         if (computerSelection == "rock") {
