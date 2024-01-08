@@ -27,7 +27,7 @@ function lost(pChoice, cChoice) {
     computerPoints += 1;
     pointsC.textContent= `${computerPoints} points`
     if (computerPoints == 5) {
-        textwindow.textContent = `You lost you little bitch!\nMy ${cChoice} beats you shitty ${pChoice}!`;
+        textwindow.textContent = `You lost you little bitch!\nMy ${cChoice} beats your shitty ${pChoice}!`;
         removeAllButtons();
         let playerPoints = 0;
         let computerPoints = 0;
