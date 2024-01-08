@@ -27,7 +27,7 @@ function lost(pChoice, cChoice) {
     computerPoints += 1;
     pointsC.textContent= `${computerPoints} points`
     if (computerPoints == 5) {
-        textwindow.textContent = `You lost you little bitch!\nMy ${cChoice} beats your shitty ${pChoice}!`;
+        textwindow.textContent = `You lost you little bitch!\nMy ${cChoice} beat your shitty ${pChoice}!`;
         removeAllButtons();
         let playerPoints = 0;
         let computerPoints = 0;
@@ -54,7 +54,7 @@ function won(pChoice, cChoice) {
 
 function again() {
     const playAgain = document.createElement("button");
-    playAgain.textContent = "I wan't to play again!";
+    playAgain.textContent = "I want to play again!";
     buttons.appendChild(playAgain);
     playAgain.addEventListener('click', () => {
         start();
